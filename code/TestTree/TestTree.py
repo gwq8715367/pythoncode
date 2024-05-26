@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier  
 from sklearn.metrics import accuracy_score  
   
-# 读取 CSV文件  
+# 读取CSV文件  
 data = pd.read_csv('iris.data')
 # 假设CSV文件的列名未知，我们直接通过列索引来获取特征和目标  
 # 最后一列作为目标列  
